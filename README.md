@@ -1,15 +1,16 @@
 # git-and-github-basic-repo
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ## Description
-I was provided with the sales data, products data, location data and sales-team data of this company by Azubi Africa and I was required to analyze these datasets with power BI and to come up with a dashboard that captures key findings.
+I was asked to write a program that calculates the product quantity based on certain variables provided.
 
-Some of the data analytical process we carried out were:
-1. Data Cleaning
-2. Data Transformation
-3. Data Modelling
-4. Using DAX to create calculated columns and measures
-5. Data Visualization
+## How it Works
+The program asks the user to enter the following data:
 
-The Tools used were:
-1. Power Query Editor
-2. Power BI
+1. Stock level
+2. The number of months
+3. The planned sales quantity for each month
+
+Based on this data, it gives us the production quantity as follows:
+
+1. If the sales quantity is smaller than the stock level of the previous month, the production quantity is 0
+2. Else, the production quantity is this difference
